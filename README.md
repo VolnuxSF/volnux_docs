@@ -28,30 +28,21 @@ mintlify dev
 mintlify build
 ```
 
-## Project Structure
-
-```
-volnux_docs/
-├── docs.json              # Navigation & site configuration
-├── index.mdx              # Home page
-├── getting-started/       # Getting Started guides
-├── AGENTS.md              # AI agent context
-└── README.md              # This file
-```
-
 ## Contributing
 
-To contribute to the docs:
+We welcome contributions! Here's how to contribute to the docs:
 
-1. Create a new `.mdx` file in the appropriate directory
-2. Add it to the navigation in `docs.json`
-3. Run `mintlify dev` to preview changes
-4. Commit and push
+1. **Fork or create a branch** - Create a feature branch for your changes
+2. **Make your changes** - Add or edit `.mdx` files and update `docs.json` as needed
+3. **Preview locally** - Run `mintlify dev` to preview your changes at `http://localhost:3000`
+4. **Create a Pull Request** - Push your branch and open a PR with a clear description of your changes
+5. **Request review** - Tag `@kwabenadarkwa` for review and feedback
+6. **Merge** - Your PR will be merged once approved by the maintainer
 
-For detailed context on the project, see [AGENTS.md](./AGENTS.md).
+Please ensure your changes are tested locally before submitting a PR.
+
 
 ## Links
 
 - **Main Repo**: [VolnuxSF/volnux](https://github.com/VolnuxSF/volnux)
 - **Mintlify Docs**: [mintlify.com/docs](https://mintlify.com/docs)
-- **Issues**: [GitHub Issues](https://github.com/VolnuxSF/volnux/issues)
