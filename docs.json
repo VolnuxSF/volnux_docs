@@ -11,17 +11,7 @@
     "groups": [
       {
         "group": "Get Started",
-        "pages": [
-          "getting-started/overview",
-          "getting-started/installation"
-        ]
-      },
-      {
-        "group": "Core Concepts",
-        "pages": [
-          "core-concepts/workflows",
-          "core-concepts/events"
-        ]
+        "pages": ["getting-started/overview", "getting-started/installation"]
       }
     ]
   }
