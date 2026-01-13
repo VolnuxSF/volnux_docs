@@ -7,20 +7,22 @@
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "navigation": [
-    {
-      "group": "Get Started",
-      "pages": [
-        "getting-started/overview",
-        "getting-started/installation"
-      ]
-    },
-    {
-      "group": "Core Concepts",
-      "pages": [
-        "core-concepts/workflows",
-        "core-concepts/events"
-      ]
-    }
-  ]
+  "navigation": {
+    "groups": [
+      {
+        "group": "Get Started",
+        "pages": [
+          "getting-started/overview",
+          "getting-started/installation"
+        ]
+      },
+      {
+        "group": "Core Concepts",
+        "pages": [
+          "core-concepts/workflows",
+          "core-concepts/events"
+        ]
+      }
+    ]
+  }
 }
