@@ -1,0 +1,32 @@
+# Mintlify specific
+node_modules/
+.next/
+out/
+build/
+dist/
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Dependencies
+yarn.lock
+package-lock.json
+
+# Generated files
+.mintlify/
+
+# OS specific
+Thumbs.db
+.Spotlight-V100
+.Trashes
